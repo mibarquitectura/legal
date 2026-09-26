@@ -1,0 +1,214 @@
+{
+  "anyo": 2026,
+  "ultima_verificacion": "2026-09-26",
+  "verificado_por": "agente (conocimiento propio) — pendiente de cotejo por el usuario con las fuentes oficiales indicadas",
+  "fuentes": [
+    "Nacionales: Resolución de la Dirección General de Trabajo por la que se publica la relación de fiestas laborales para 2026 (BOE, otoño 2025).",
+    "Catalunya: Ordre del Departament d'Empresa i Treball per la qual s'estableix el calendari oficial de festes laborals a Catalunya per a l'any 2026 (DOGC).",
+    "Locales: Ordre del Departament d'Empresa i Treball per la qual s'estableix el calendari de festes locals a Catalunya per a l'any 2026 (DOGC) i acord del Plenari del Consell Municipal de Barcelona.",
+    "Regla de cómputo: art. 30 Ley 39/2015 (LPACAP). Cada Administración fija el calendario de días inhábiles en su ámbito (art. 30.7); para un ayuntamiento rigen los festivos nacionales + autonómicos + los dos locales del municipio."
+  ],
+  "notas": [
+    "Sábados y domingos son siempre inhábiles a efectos de plazos administrativos (art. 30.2 LPACAP). Un festivo que caiga en fin de semana no cambia el cómputo de días hábiles, pero sí afecta al vencimiento de plazos por meses (art. 30.5: si el último día es inhábil, se prorroga al primer día hábil siguiente).",
+    "Agosto es HÁBIL en vía administrativa. Solo es inhábil en la jurisdicción contencioso-administrativa (art. 128.2 LJCA), salvo el procedimiento de protección de derechos fundamentales.",
+    "El 24 de septiembre (La Mercè) es inhábil para el Ajuntament de Barcelona pero HÁBIL para la Generalitat, la AGE y los demás municipios que no lo tengan como fiesta local: el municipio del órgano determina el calendario.",
+    "Las notificaciones electrónicas puestas a disposición se entienden rechazadas a los 10 días NATURALES sin acceso (art. 43.2 LPACAP): ese cómputo no excluye festivos.",
+    "Estructura extensible: añadir municipios en 'municipios' copiando '_plantilla'. Los festivos con 'verificar': true deben cotejarse antes de fiarse de un vencimiento que dependa de ellos."
+  ],
+  "nacionales": [
+    {
+      "fecha": "2026-01-01",
+      "dia_semana": "jueves",
+      "nombre": "Año Nuevo",
+      "nombre_ca": "Cap d'Any",
+      "ambito": "nacional"
+    },
+    {
+      "fecha": "2026-01-06",
+      "dia_semana": "martes",
+      "nombre": "Epifanía del Señor",
+      "nombre_ca": "Reis",
+      "ambito": "nacional"
+    },
+    {
+      "fecha": "2026-04-03",
+      "dia_semana": "viernes",
+      "nombre": "Viernes Santo",
+      "nombre_ca": "Divendres Sant",
+      "ambito": "nacional"
+    },
+    {
+      "fecha": "2026-05-01",
+      "dia_semana": "viernes",
+      "nombre": "Fiesta del Trabajo",
+      "nombre_ca": "Festa del Treball",
+      "ambito": "nacional"
+    },
+    {
+      "fecha": "2026-08-15",
+      "dia_semana": "sábado",
+      "nombre": "Asunción de la Virgen",
+      "nombre_ca": "L'Assumpció",
+      "ambito": "nacional",
+      "cae_en_fin_de_semana": true,
+      "nota": "Ya inhábil por ser sábado/domingo (art. 30.2 LPACAP): no altera el cómputo de días hábiles."
+    },
+    {
+      "fecha": "2026-10-12",
+      "dia_semana": "lunes",
+      "nombre": "Fiesta Nacional de España",
+      "nombre_ca": "Festa Nacional d'Espanya",
+      "ambito": "nacional"
+    },
+    {
+      "fecha": "2026-11-01",
+      "dia_semana": "domingo",
+      "nombre": "Todos los Santos",
+      "nombre_ca": "Tots Sants",
+      "ambito": "nacional",
+      "cae_en_fin_de_semana": true,
+      "nota": "Ya inhábil por ser sábado/domingo (art. 30.2 LPACAP): no altera el cómputo de días hábiles. Cae en domingo; algunas CCAA lo trasladan al lunes 2. En Catalunya no consta traslado [VERIFICAR con la Ordre de festes laborals 2026].",
+      "verificar": true
+    },
+    {
+      "fecha": "2026-12-08",
+      "dia_semana": "martes",
+      "nombre": "Inmaculada Concepción",
+      "nombre_ca": "La Immaculada",
+      "ambito": "nacional"
+    },
+    {
+      "fecha": "2026-12-25",
+      "dia_semana": "viernes",
+      "nombre": "Natividad del Señor",
+      "nombre_ca": "Nadal",
+      "ambito": "nacional"
+    }
+  ],
+  "catalunya": [
+    {
+      "fecha": "2026-04-06",
+      "dia_semana": "lunes",
+      "nombre": "Lunes de Pascua Florida",
+      "nombre_ca": "Dilluns de Pasqua Florida",
+      "ambito": "catalunya"
+    },
+    {
+      "fecha": "2026-06-24",
+      "dia_semana": "miércoles",
+      "nombre": "San Juan",
+      "nombre_ca": "Sant Joan",
+      "ambito": "catalunya"
+    },
+    {
+      "fecha": "2026-09-11",
+      "dia_semana": "viernes",
+      "nombre": "Fiesta Nacional de Catalunya",
+      "nombre_ca": "Diada Nacional de Catalunya",
+      "ambito": "catalunya"
+    },
+    {
+      "fecha": "2026-12-26",
+      "dia_semana": "sábado",
+      "nombre": "San Esteban",
+      "nombre_ca": "Sant Esteve",
+      "ambito": "catalunya",
+      "cae_en_fin_de_semana": true,
+      "nota": "Ya inhábil por ser sábado/domingo (art. 30.2 LPACAP): no altera el cómputo de días hábiles. Cae en sábado [VERIFICAR si la Ordre de festes laborals 2026 lo mantiene o lo sustituye].",
+      "verificar": true
+    }
+  ],
+  "municipios": {
+    "barcelona": {
+      "nombre": "Barcelona",
+      "codigo_ine": "08019",
+      "verificado": true,
+      "festivos": [
+        {
+          "fecha": "2026-05-25",
+          "dia_semana": "lunes",
+          "nombre": "Lunes de Pascua Granada (Segunda Pascua)",
+          "nombre_ca": "Dilluns de Pasqua Granada (Segona Pasqua)",
+          "ambito": "local"
+        },
+        {
+          "fecha": "2026-09-24",
+          "dia_semana": "jueves",
+          "nombre": "La Mercè",
+          "nombre_ca": "La Mercè",
+          "ambito": "local"
+        }
+      ]
+    },
+    "_plantilla": {
+      "nombre": "[Nombre del municipio]",
+      "codigo_ine": "[código INE 5 dígitos]",
+      "verificado": false,
+      "festivos": [
+        {
+          "fecha": "AAAA-MM-DD",
+          "dia_semana": "",
+          "nombre": "[Fiesta local 1]",
+          "nombre_ca": "",
+          "ambito": "local"
+        },
+        {
+          "fecha": "AAAA-MM-DD",
+          "dia_semana": "",
+          "nombre": "[Fiesta local 2]",
+          "nombre_ca": "",
+          "ambito": "local"
+        }
+      ]
+    },
+    "hospitalet_de_llobregat": {
+      "nombre": "L'Hospitalet de Llobregat",
+      "codigo_ine": "08101",
+      "verificado": false,
+      "festivos": []
+    },
+    "badalona": {
+      "nombre": "Badalona",
+      "codigo_ine": "08015",
+      "verificado": false,
+      "festivos": []
+    },
+    "sant_cugat_del_valles": {
+      "nombre": "Sant Cugat del Vallès",
+      "codigo_ine": "08205",
+      "verificado": false,
+      "festivos": []
+    },
+    "sant_adria_de_besos": {
+      "nombre": "Sant Adrià de Besòs",
+      "codigo_ine": "08194",
+      "verificado": false,
+      "festivos": []
+    },
+    "esplugues_de_llobregat": {
+      "nombre": "Esplugues de Llobregat",
+      "codigo_ine": "08077",
+      "verificado": false,
+      "festivos": []
+    },
+    "cornella_de_llobregat": {
+      "nombre": "Cornellà de Llobregat",
+      "codigo_ine": "08073",
+      "verificado": false,
+      "festivos": []
+    },
+    "santa_coloma_de_gramenet": {
+      "nombre": "Santa Coloma de Gramenet",
+      "codigo_ine": "08245",
+      "verificado": false,
+      "festivos": []
+    },
+    "generalitat": {
+      "nombre": "Generalitat de Catalunya (órganos autonómicos, GAIP)",
+      "codigo_ine": null,
+      "verificado": true,
+      "festivos": [],
+      "nota": "Solo nacionales + Catalunya; sin fiestas locales. Para la GAIP y departamentos de la Generalitat con sede en Barcelona, comprobar el calendario de días inhábiles publicado en el DOGC [VERIFICAR]."
+    }
+  }
+}

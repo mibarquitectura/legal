@@ -1,0 +1,24 @@
+# Confidencialidad: los expedientes reales no se versionan (CLAUDE.md, apartado 10).
+# Solo se versiona el caso anonimizado de prueba.
+expedientes/*
+!expedientes/README.md
+!expedientes/_EJEMPLO/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+~$*.docx
+*.tmp
+
+# Logotipo del despacho (se añade localmente si se activa en config/despacho.json)
+config/logo_atrio.png

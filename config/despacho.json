@@ -1,0 +1,61 @@
+{
+  "_comentario": "Datos del despacho y del firmante. Los campos con [●RELLENAR] debe completarlos el titular del despacho. Este fichero es la única fuente de datos personales para las plantillas: nunca se escriben a mano en un escrito.",
+  "despacho": {
+    "razon_social": "ATRIO PROJECT, S.L.",
+    "nombre_comercial": "ATRIO",
+    "nif": "[●RELLENAR NIF ATRIO]",
+    "direccion": {
+      "via": "Carrer Provença",
+      "numero": "281",
+      "piso_puerta": "3º 3ª",
+      "codigo_postal": "08037",
+      "municipio": "Barcelona",
+      "provincia": "Barcelona",
+      "linea_completa": "Carrer Provença 281, 3º 3ª, 08037 Barcelona"
+    },
+    "telefono": "[●RELLENAR TELÉFONO]",
+    "email": "info@atrioarquitectura.com",
+    "web": "[●RELLENAR WEB]",
+    "actividad": "Consultoría de arquitectura técnica e ingeniería"
+  },
+  "firmante": {
+    "nombre": "Mauricio",
+    "apellidos": "Romero Cortijo",
+    "nombre_completo": "Mauricio Romero Cortijo",
+    "nif": "[●RELLENAR NIF FIRMANTE]",
+    "titulacion": "Arquitecte Tècnic",
+    "titulacion_es": "Arquitecto Técnico",
+    "colegio": "CAATEEB",
+    "colegio_nombre_completo": "Col·legi d'Aparelladors, Arquitectes Tècnics i Enginyers d'Edificació de Barcelona",
+    "numero_colegiado": "14.629",
+    "telefono": "[●RELLENAR TELÉFONO FIRMANTE]",
+    "email": "info@atrioarquitectura.com",
+    "cargo_en_despacho": "[●RELLENAR CARGO (p. ej. administrador)]"
+  },
+  "notificaciones": {
+    "domicilio": "Carrer Provença 281, 3º 3ª, 08037 Barcelona",
+    "email": "info@atrioarquitectura.com",
+    "medio_preferente": "electrónico",
+    "nota": "Art. 14.2 LPACAP: las personas jurídicas están obligadas a relacionarse electrónicamente. Si el titular representado es persona física, puede elegir medio (art. 14.1)."
+  },
+  "formato_documentos": {
+    "papel": "A4",
+    "margenes_cm": 2.5,
+    "tipografia": "Arial",
+    "tamano_pt": 11,
+    "interlineado": 1.15,
+    "logotipo": {
+      "activo": false,
+      "ruta": "config/logo_atrio.png",
+      "ancho_cm": 4
+    },
+    "color_marcadores": "FF0000",
+    "pie_pagina_numerado": true
+  },
+  "idioma_por_defecto": "es",
+  "referencia_interna": {
+    "formato": "ATYYxx",
+    "descripcion": "AT + dos dígitos del año + número correlativo de dos o más dígitos (p. ej. AT2607)",
+    "regex": "^AT\\d{2}\\d{2,}$"
+  }
+}

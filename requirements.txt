@@ -1,0 +1,5 @@
+# Scripts Python del agente legal-administrativo ATRIO
+pdfplumber>=0.11
+pytesseract>=0.3.10
+Pillow>=10.0
+pypdfium2>=4.0
