@@ -17,7 +17,7 @@
  *   #. Texto…                 párrafo con ordinal automático (PRIMERO.-, SEGUNDO.-…; se reinicia en cada ##)
  *   PRIMERO.- Texto…          ordinal explícito (se pone en negrita)
  *   - viñeta / 1. lista numerada / > cita sangrada
- *   [right] texto  [center] texto  [pagebreak]  [firma]
+ *   [right] texto  [center] texto  [pagebreak]  [firma]   <!-- comentario: no se imprime -->
  *   Inline: **negrita** *cursiva* __subrayado__ [●MARCADOR] [VERIFICAR …] {{firmante.nombre_completo}} {{fm.referencia}} {{hoy}}
  *
  * Formato de salida: A4, márgenes 2,5 cm, Arial 11, interlineado 1,15, texto justificado,
@@ -162,6 +162,7 @@ export function parsearBloques(cuerpo, idioma = "es") {
   const bloques = [];
   let contador = 0;
   let parrafo = [];
+  cuerpo = cuerpo.replace(/<!--[\s\S]*?-->/g, ""); // notas de uso de la plantilla: no se imprimen
   const cerrar = () => {
     if (parrafo.length) {
       bloques.push({ tipo: "parrafo", texto: parrafo.join(" ").trim() });
@@ -265,7 +266,7 @@ function bloqueAParrafos(b, ctx) {
       return [
         P([], { spacing: { ...ESPACIADO, before: 720 } }),
         P([], {}),
-        P(runsInline(`Fdo.: ${nombre}`, { bold: true }), { alignment: AlignmentType.LEFT, spacing: { ...ESPACIADO, after: 0 } }),
+        P(runsInline(`${ctx.idioma === "ca" ? "Signat:" : "Fdo.:"} ${nombre}`, { bold: true }), { alignment: AlignmentType.LEFT, spacing: { ...ESPACIADO, after: 0 } }),
         P(runsInline(`${titulacion}, ${col}`), { alignment: AlignmentType.LEFT, spacing: { ...ESPACIADO, after: 0 } }),
       ];
     }

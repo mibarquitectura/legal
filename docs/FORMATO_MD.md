@@ -42,6 +42,7 @@ Cualquier otra clave queda disponible en el cuerpo como `{{fm.clave}}`.
 | `[firma]` | Bloque de firma: espacio, `Fdo.: <firmante.nombre_completo>` y titulación + nº colegiado desde `config/despacho.json`. |
 | `[pagebreak]` | Salto de página. |
 | `[blanco]` o `---` | Párrafo vacío. |
+| `<!-- nota -->` | Comentario (puede ocupar varias líneas): notas de uso de la plantilla, no se imprime. |
 | Línea en blanco | Separa párrafos. Líneas consecutivas sin blanco se unen en un párrafo. |
 
 ## 3. Formato en línea

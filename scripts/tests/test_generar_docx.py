@@ -77,6 +77,31 @@ class TestGenerarDocx(unittest.TestCase):
         self.assertNotIn("<w:drawing>", self.header)
         self.assertFalse(any(n.startswith("word/media/") for n in self.nombres))
 
+    def test_comentarios_no_se_imprimen(self):
+        with tempfile.TemporaryDirectory() as d:
+            src = Path(d) / "c.md"
+            src.write_text("---\nidioma: es\n---\nVisible.\n\n<!-- NOTA OCULTA\nmultilínea -->\n\nTambién visible.\n", encoding="utf8")
+            r = subprocess.run(["node", str(SCRIPT), str(src), "--dump"], capture_output=True, text=True, cwd=RAIZ)
+            textos = " ".join(b.get("texto", "") for b in json.loads(r.stdout)["bloques"])
+            self.assertNotIn("OCULTA", textos)
+            self.assertIn("También visible", textos)
+
+    def test_todas_las_plantillas_generan(self):
+        plantillas = sorted((RAIZ / "plantillas").glob("*/*.md"))
+        self.assertEqual(len(plantillas), 24, [p.name for p in plantillas])
+        with tempfile.TemporaryDirectory() as d:
+            for p in plantillas:
+                out = Path(d) / f"{p.parent.name}_{p.stem}.docx"
+                r = subprocess.run(["node", str(SCRIPT), str(p), "-o", str(out)], capture_output=True, text=True, cwd=RAIZ)
+                self.assertEqual(r.returncode, 0, f"{p}: {r.stderr}")
+                with zipfile.ZipFile(out) as z:
+                    doc = z.read("word/document.xml").decode("utf8")
+                self.assertNotIn("{{", doc, p.name)
+                self.assertNotIn("&lt;!--", doc, p.name)
+                if p.stem != "correo_cliente":
+                    esperado = "SOL·LICITA" if p.parent.name == "ca" else "SOLICITA"
+                    self.assertIn(esperado, doc, p.name)
+
     def test_dump(self):
         r = subprocess.run(["node", str(SCRIPT), str(FIXTURE), "--dump"], capture_output=True, text=True, cwd=RAIZ)
         d = json.loads(r.stdout)
@@ -99,6 +124,7 @@ class TestGenerarDocx(unittest.TestCase):
                 doc = z.read("word/document.xml").decode("utf8")
                 foot = "".join(z.read(n).decode("utf8") for n in z.namelist() if re.match(r"word/footer\d*\.xml", n))
             self.assertIn("PRIMER.- ", doc)
+            self.assertIn("Signat:", doc)
             self.assertIn("SEGON.- ", doc)
             self.assertIn("Pàgina ", foot)
 
