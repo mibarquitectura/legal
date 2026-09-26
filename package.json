@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "docx": "node scripts/generar_docx.js",
-    "test:plazos": "python3 -m pytest scripts/tests -q"
+    "test": "python3 -m pytest scripts/tests -q"
   },
   "dependencies": {
     "docx": "^9.0.0"

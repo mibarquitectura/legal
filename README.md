@@ -19,15 +19,18 @@ No sustituye al profesional: **calcula plazos, califica el acto, diagnostica por
 ├── plantillas/                # 12 plantillas (es/ca) .md + .docx del apartado 5              [FASE 3]
 ├── scripts/
 │   ├── nuevo_expediente.py    # Crea expedientes/<REF>/ con entrada/, salida/, FICHA.md, CRONOLOGIA.md   [operativo]
-│   ├── calcular_plazos.py     # Plazos art. 30 y 43.2 LPACAP con calendario de festivos                 [FASE 2]
-│   ├── extraer_pdf.py         # Texto/OCR de notificaciones + detección de datos clave → JSON          [FASE 2]
-│   └── generar_docx.js        # .md estructurado → .docx formato ATRIO (Node.js + docx)                [FASE 2]
+│   ├── calcular_plazos.py     # Plazos art. 30 y 43.2 LPACAP con calendario de festivos                 [operativo]
+│   ├── extraer_pdf.py         # Texto/OCR de notificaciones + detección de datos clave → JSON          [operativo]
+│   ├── generar_docx.js        # .md estructurado → .docx formato ATRIO (Node.js + docx)                [operativo]
+│   └── tests/                 # 41 tests (pytest): plazos, extracción, docx
 ├── expedientes/
 │   └── _EJEMPLO/              # Caso real anonimizado para la prueba de la FASE 4
 ├── docs/
-│   └── PROMPT_INICIAL.md      # Plan de construcción por fases
+│   ├── PROMPT_INICIAL.md      # Plan de construcción por fases
+│   └── FORMATO_MD.md          # Formato del .md estructurado que consume generar_docx.js
 ├── .claude/commands/          # Comandos /nuevo, /analizar, /redactar, /plazo, /correo, /cronologia     [FASE 5]
 ├── requirements.txt           # Dependencias Python (pdfplumber, pytesseract, Pillow)
+├── requirements-dev.txt       # Dependencias de test (pytest, reportlab, python-docx)
 └── package.json               # Dependencia Node (docx)
 ```
 
@@ -40,6 +43,8 @@ pip install -r requirements.txt
 sudo apt install tesseract-ocr tesseract-ocr-spa tesseract-ocr-cat poppler-utils
 # Node (generación de .docx)
 npm install
+# Tests
+pip install -r requirements-dev.txt && npm test
 ```
 
 Después, completar los campos `[●RELLENAR]` de `config/despacho.json` (NIF de la sociedad y del firmante, teléfonos). Ese fichero es la única fuente de datos personales que usan las plantillas.
@@ -67,7 +72,7 @@ Los datos de clientes no salen de `expedientes/`. Por defecto `.gitignore` exclu
 | Fase | Contenido | Estado |
 |---|---|---|
 | 1 | Estructura del repositorio, `config/despacho.json`, festivos 2026, `nuevo_expediente.py`, `_EJEMPLO/` | hecha |
-| 2 | `calcular_plazos.py` (+ tests), `extraer_pdf.py`, `generar_docx.js` | pendiente |
+| 2 | `calcular_plazos.py` (+ tests), `extraer_pdf.py`, `generar_docx.js`, `docs/FORMATO_MD.md` | hecha |
 | 3 | 12 plantillas es/ca, fichas de `normativa/` y `argumentario/` | pendiente |
 | 4 | Prueba con caso real anonimizado y propuestas de mejora | pendiente |
 | 5 | Comandos `.claude/commands/` | pendiente |
