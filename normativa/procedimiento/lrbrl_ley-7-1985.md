@@ -1,0 +1,65 @@
+# Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local (LRBRL)
+
+| Campo | Contenido |
+|---|---|
+| Identificación | Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local |
+| Publicación | BOE núm. 80, de 3 de abril de 1985 |
+| Ámbito | Estatal, básica; aplicable a todos los municipios. Título X (municipios de gran población) aplicable a Barcelona sin perjuicio de su régimen especial (Llei 22/1998 y Ley 1/2006) |
+| Vigencia y modificaciones | Vigente. Reformas mayores: Ley 11/1999 (pacto local), Ley 57/2003 (medidas para la modernización: Título X y Título XI sancionador), Ley 27/2013 (racionalización y sostenibilidad, competencias arts. 25-27), Ley 25/2009 (art. 84 y 84 bis, licencias) y Ley 12/2012 (art. 84 ter, comprobación posterior) [VERIFICAR fechas y alcance]. Modificaciones posteriores puntuales [VERIFICAR] |
+| Fuente oficial | BOE consolidado (boe.es, "BOE-A-1985-5392") [VERIFICAR código] |
+| Última verificación | 2026-09-26 — conocimiento del modelo, PENDIENTE de cotejo con fuente oficial |
+
+## Para qué la usa ATRIO
+
+Sirve para tres cosas: (1) determinar si el acto municipal agota la vía administrativa (art. 52.2) y, por tanto, si procede reposición o alzada; (2) identificar al órgano competente en materia de licencias, sanciones y disciplina (Alcalde, Junta de Gobierno y sus delegaciones, arts. 21, 124 y 127) y comprobar que quien firma actúa por delegación válida; (3) fundamentar los límites de la intervención municipal en la actividad de los particulares (art. 84: igualdad, congruencia con los motivos, respeto a la libertad individual; arts. 84 bis y 84 ter: preferencia por comunicación y control posterior) y de la potestad sancionadora por ordenanza (arts. 139-141). También para el acceso a documentación y acuerdos municipales (art. 70.3).
+
+## Artículos clave
+
+| Art. | Contenido (resumen fiel, no literal) | Uso en escritos de ATRIO |
+|---|---|---|
+| 4.1 | Potestades de los municipios: reglamentaria y de autoorganización (a), tributaria (b), programación (c), expropiatoria e investigación (d), presunción de legitimidad y ejecutividad de sus actos (e), ejecución forzosa y sancionadora (f), revisión de oficio (g), inembargabilidad (h) | Recordar que la potestad sancionadora y de ejecución forzosa existe pero se ejerce con los límites de LPACAP/LRJSP |
+| 21.1 | Competencias del Alcalde: entre otras, dirigir el gobierno (a), otorgar licencias salvo que la ley sectorial las atribuya al Pleno o Junta de Gobierno (q), sancionar faltas por infracción de ordenanzas (n), ejercicio de acciones judiciales (k) | Órgano originario de la competencia en licencias y sanciones en municipios de régimen común (área metropolitana) |
+| 21.3 | El Alcalde puede delegar sus atribuciones salvo las expresamente indelegables (convocar y presidir Pleno, dictar bandos, jefatura de personal, etc.) | Base de los decretos de delegación en tenientes de alcalde, concejales y, en gran población, órganos directivos |
+| 22 | Competencias del Pleno: aprobación de ordenanzas y planeamiento general (22.2.c y d), control del gobierno, etc. | Ordenanzas y planes: aprobados por Pleno; impugnación solo por vía contenciosa (disposiciones generales) |
+| 23 | Junta de Gobierno Local: composición y atribuciones delegadas por el Alcalde o el Pleno | En municipios de régimen común, muchos ayuntamientos delegan licencias en la Junta de Gobierno |
+| 25 | Competencias propias municipales: urbanismo (25.2.a), medio ambiente urbano (25.2.b), protección de la salubridad pública (25.2.j), comercio ambulante y ferias (25.2.i), etc. | Justificar la competencia municipal en licencias de actividad y disciplina urbanística; también su límite (no pueden exigirse requisitos de competencia autonómica) |
+| 47 | Régimen de mayorías del Pleno | Solo si se discute la validez de una ordenanza o de un acuerdo de suspensión de licencias |
+| 52 | Recursos: contra actos definitivos y de trámite cualificados de las entidades locales que agoten la vía, contencioso; ponen fin a la vía administrativa (52.2): los actos del Pleno, Alcaldes y Juntas de Gobierno salvo aprobación ulterior legal (a); los de autoridades y órganos inferiores cuando resuelvan por delegación del Alcalde, Presidente u otro órgano cuyas resoluciones agoten la vía (b); los de cualquier otro órgano cuando lo establezca una ley (c) | Regla decisiva del árbol de calificación: resolución de Gerent o Regidor de Districte por delegación de Alcaldía → agota vía → reposición potestativa o contencioso, no alzada |
+| 54 | Responsabilidad patrimonial de las entidades locales conforme a la legislación general | Derivación a abogado tras anulación de cierres o precintos |
+| 70.3 | Derecho de los ciudadanos a obtener copias y certificaciones de acuerdos y antecedentes, y a consultar archivos y registros, conforme a la legislación de transparencia | Solicitar copia de decretos de delegación, informes técnicos generales, criterios internos; complementa Llei 19/2014 |
+| 84 | Intervención de las entidades locales en la actividad de los ciudadanos: por ordenanzas y bandos, sometimiento a comunicación previa o declaración responsable, sometimiento a licencia previa u otros actos de control preventivo, órdenes individuales (84.1); la intervención se ajusta a los principios de igualdad de trato, necesidad y proporcionalidad con el objetivo perseguido (84.2); las licencias de actividad y de obras y las de instalaciones se comunican a la Administración autonómica cuando proceda (84.3) [VERIFICAR redacción vigente de 84.3] | Argumento de proporcionalidad y congruencia de los requerimientos; la Administración no puede exigir en la comprobación lo que la ordenanza no prevé |
+| 84 bis | Regla general: el ejercicio de actividades no se somete a licencia u otro control preventivo; solo cabe licencia cuando esté justificado por razones de orden público, seguridad, salud pública, protección del medio ambiente o del patrimonio, o cuando la escasez de recursos o instalaciones lo exija, y siempre que sea proporcionado; se enumeran instalaciones/infraestructuras que pueden requerir licencia [VERIFICAR detalle] | Ayuntamientos que exigen licencia donde la LFAE o la ordenanza prevén comunicación: exigir el régimen menos intervencionista |
+| 84 ter | Cuando el ejercicio de actividades no precise autorización previa, las entidades locales deben establecer procedimientos de comunicación y de verificación posterior del cumplimiento de los requisitos | Base legal del control posterior: la comprobación no es una nueva licencia; no puede exigir requisitos distintos de los declarados y de la normativa vigente |
+| 121-122 | Ámbito del Título X (municipios de gran población) y su aplicación; Barcelona se rige además por su régimen especial | Explica la estructura de gerencias y órganos directivos de Barcelona |
+| 123 | Atribuciones del Pleno en gran población: ordenanzas, planeamiento general, normas orgánicas de distritos (123.1.c) [VERIFICAR letra], etc. | Normas reguladoras de los distritos de Barcelona: aprobadas por el Consell Municipal |
+| 124 | Alcalde en gran población: competencias (124.4) y delegación en Junta de Gobierno, miembros de ésta, concejales, coordinadores generales, directores generales u órganos similares (124.5) [VERIFICAR apartado] | Los Gerents de Districte de Barcelona son órganos directivos que actúan por delegación de Alcaldía o de la Comissió de Govern |
+| 127 | Junta de Gobierno Local en gran población: entre sus competencias, concesión de cualquier tipo de licencia salvo atribución sectorial a otro órgano (127.1.e) y potestad sancionadora en determinados supuestos (127.1.l) [VERIFICAR letras]; puede delegarlas en tenientes de alcalde, concejales, coordinadores generales, directores generales u órganos similares (127.2) | En Barcelona la competencia originaria de licencias reside en la Comissió de Govern y se ejerce por delegación en Regidors/Gerents; el acto delegado agota la vía |
+| 128 | Los municipios de gran población deben crear distritos como divisiones territoriales dotadas de órganos de gestión desconcentrada | Fundamento de la organización por distritos de Barcelona (junto con la Carta Municipal) |
+| 130 | Órganos superiores (Alcalde, miembros de la Junta) y directivos (coordinadores generales, directores generales u órganos similares, secretario general del Pleno, interventor, etc.) | Distinguir órgano superior (Regidor) y directivo (Gerent) para leer los decretos de delegación |
+| 139 | Las entidades locales pueden tipificar infracciones y sanciones en ordenanzas por incumplimiento de deberes, prohibiciones o limitaciones en materia de ordenación de las relaciones de convivencia y uso de servicios, equipamientos, infraestructuras y espacios públicos, en defecto de normativa sectorial | Sanciones por ordenanza (terrazas, convivencia, limpieza): comprobar que la infracción existe en ley o en ordenanza con esta cobertura |
+| 140 | Clasificación de infracciones (muy graves, graves, leves) según criterios de perturbación, daño, intensidad | Discutir la calificación de la infracción |
+| 141 | Límites de las multas por infracción de ordenanzas: muy graves hasta 3.000 €, graves hasta 1.500 €, leves hasta 750 €, salvo previsión legal distinta | Cuantía máxima de sanciones de ordenanza sin ley sectorial; verificar si la ordenanza excede estos límites |
+| DA sexta [VERIFICAR] | Régimen especial de Madrid y Barcelona: aplicación del Título X sin perjuicio de sus leyes especiales | Remisión a Llei 22/1998 y Ley 1/2006 |
+
+## Notas prácticas e interpretación administrativa habitual en Barcelona
+
+- **Agotamiento de la vía.** Casi todas las resoluciones que recibe ATRIO en Barcelona (Gerent de Districte, Regidor/a de Districte, Gerent d'Ecologia Urbana, Gerent de Llicències i Espai Públic) se dictan por delegación de la Alcaldia o de la Comissió de Govern y por ello agotan la vía (art. 52.2.b). El recurso es reposición potestativa (1 mes) o contencioso (2 meses). La alzada aparece solo cuando el acto lo dicta un órgano sin delegación de competencia resolutoria o cuando lo prevé el pie de recursos (p. ej., determinados actos de organismos autónomos e institutos municipales) [VERIFICAR caso a caso].
+- **Municipios metropolitanos de régimen común** (Sant Adrià, Esplugues, Cornellà, Santa Coloma, Sant Cugat, Badalona, L'Hospitalet: estos últimos tres son gran población [VERIFICAR]): las licencias y sanciones suelen delegarse del Alcalde en Junta de Gobierno o en regidores/tenientes de alcalde; ambos supuestos agotan la vía (52.2.a y b). Confirmar con el decreto de delegación publicado en el BOPB.
+- **Publicación de la delegación.** Si la resolución se dicta por delegación no publicada o no identificada, alegar defecto formal (art. 9.3-9.4 LRJSP) y pedir en la vista del expediente el decreto; en la práctica no suele anular el acto, pero sirve para forzar la identificación del órgano y del régimen de recursos.
+- **Art. 84 ter y comprobación.** Los ayuntamientos a veces convierten la comprobación posterior de una comunicación en un procedimiento de licencia encubierto (exigencia de documentación adicional, informes preceptivos, condiciones). Invocar art. 84 ter LRBRL junto con art. 69 LPACAP y LFAE: la comprobación verifica lo comunicado, no otorga ni deniega.
+
+## Trampas y puntos de atención
+
+- El art. 52.2.b exige que la delegación sea del Alcalde (o de otro órgano cuyas resoluciones agoten la vía). Delegaciones internas entre órganos directivos (Gerent municipal → Gerent de Districte) requieren comprobar la cadena: si la competencia originaria es de la Comissió de Govern (127.1) y se delega en Gerent, el acto agota la vía; si es competencia propia de un órgano directivo por atribución de reglamento orgánico, puede caber alzada [VERIFICAR].
+- El límite de multas del art. 141 no se aplica cuando hay ley sectorial (LFAE, LPCAA, Llei 11/2009, TRLUC): las cuantías son mucho mayores.
+- La referencia a la Ley 27/2013 en el art. 25: algunos ayuntamientos alegan falta de competencia para exigir requisitos ambientales; la competencia en actividades sigue siendo municipal vía legislación catalana (LPCAA, LFAE).
+- El derecho de acceso del art. 70.3 no sustituye a la solicitud de vista del expediente (art. 53.1.a LPACAP) cuando se es interesado; utilizar la vía correcta según se sea o no parte del procedimiento.
+
+## Relación con otras normas de la biblioteca
+
+- Llei 22/1998 (Carta Municipal de Barcelona) y Ley 1/2006 (régimen especial estatal): organización de Barcelona (Consell Municipal, Comissió de Govern, Districtes, Gerències) y sus delegaciones.
+- LPACAP: arts. 112-124 (recursos) y 114 (fin de vía) se aplican junto al art. 52.2 LRBRL.
+- LRJSP: art. 9 (delegación) y arts. 25-31 (sancionador) completan arts. 21, 127 y 139-141.
+- Decret 179/1995 (ROAS): desarrollo catalán del régimen de licencias e intervención local.
+- LFAE y OMAIIA: concretan el art. 84 ter (comunicación y control posterior) en Catalunya y Barcelona.
+- LJCA: art. 8.1 (Juzgados de lo Contencioso para actos de entidades locales) y art. 46 (plazos).

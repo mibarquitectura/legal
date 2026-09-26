@@ -14,15 +14,15 @@ No sustituye al profesional: **calcula plazos, califica el acto, diagnostica por
 │   └── despacho.json          # Datos de ATRIO y del firmante (NIF y teléfonos: campos [●RELLENAR])
 ├── datos/
 │   └── festivos/2026.json     # Festivos nacionales + Catalunya + locales (Barcelona verificado; otros municipios: estructura)
-├── normativa/                 # Una ficha .md por norma del apartado 7 de CLAUDE.md          [FASE 3]
-├── argumentario/              # Una ficha .md por motivo del apartado 4 de CLAUDE.md         [FASE 3]
-├── plantillas/                # 12 plantillas (es/ca) .md + .docx del apartado 5              [FASE 3]
+├── normativa/                 # 31 fichas por norma (procedimiento, actividades, urbanismo, técnica, patrimonio…)
+├── argumentario/              # 12 fichas de motivos: cuándo, requisitos, base normativa, redacción ES/CA, prueba, riesgos
+├── plantillas/                # 12 plantillas × 2 idiomas (es/, ca/), .md estructurado + .docx generado
 ├── scripts/
 │   ├── nuevo_expediente.py    # Crea expedientes/<REF>/ con entrada/, salida/, FICHA.md, CRONOLOGIA.md   [operativo]
 │   ├── calcular_plazos.py     # Plazos art. 30 y 43.2 LPACAP con calendario de festivos                 [operativo]
 │   ├── extraer_pdf.py         # Texto/OCR de notificaciones + detección de datos clave → JSON          [operativo]
 │   ├── generar_docx.js        # .md estructurado → .docx formato ATRIO (Node.js + docx)                [operativo]
-│   └── tests/                 # 41 tests (pytest): plazos, extracción, docx
+│   └── tests/                 # 43 tests (pytest): plazos, extracción, docx y plantillas
 ├── expedientes/
 │   └── _EJEMPLO/              # Caso real anonimizado para la prueba de la FASE 4
 ├── docs/
@@ -73,6 +73,6 @@ Los datos de clientes no salen de `expedientes/`. Por defecto `.gitignore` exclu
 |---|---|---|
 | 1 | Estructura del repositorio, `config/despacho.json`, festivos 2026, `nuevo_expediente.py`, `_EJEMPLO/` | hecha |
 | 2 | `calcular_plazos.py` (+ tests), `extraer_pdf.py`, `generar_docx.js`, `docs/FORMATO_MD.md` | hecha |
-| 3 | 12 plantillas es/ca, fichas de `normativa/` y `argumentario/` | pendiente |
+| 3 | 24 plantillas es/ca (.md + .docx), 31 fichas de `normativa/`, 12 fichas de `argumentario/` | hecha |
 | 4 | Prueba con caso real anonimizado y propuestas de mejora | pendiente |
 | 5 | Comandos `.claude/commands/` | pendiente |
